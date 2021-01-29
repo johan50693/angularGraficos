@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LineasComponent } from './components/lineas/lineas.component';
 import { BarraComponent } from './components/barra/barra.component';
 import { DonaComponent } from './components/dona/dona.component';
+import { RadarComponent } from './components/radar/radar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LineasComponent,
     BarraComponent,
-    DonaComponent
+    DonaComponent,
+    RadarComponent
   ],
   imports: [
     BrowserModule,
